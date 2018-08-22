@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<script>
+function pulaLinha(){
+	document.write("<br>");
+	}
+	function mostra(frase){
+		document.write(frase);
+	}
+
+	var totalFamilia = parseInt(prompt("Digite a quantidade de pessoas em sua familia!"));
+	var numero = 1;
+	while(numero <= totalFamilia){
+		var totalIdade = 0;
+		var idade = parseInt(prompt("Informe a idade do familiar"));
+		totalIdade = totalIdade + idade;
+		numero++;
+	}
+
+	mostra("FIM");
+	pulaLinha();
+	mostra(totalIdade);
+			
+</script> 
